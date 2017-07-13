@@ -12,7 +12,7 @@
         android:id="@+id/image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@mipmap/ic_launcher" />
 
     <LinearLayout
         android:id="@+id/text_container"
@@ -21,17 +21,17 @@
         android:orientation="vertical"
         android:paddingLeft="16dp">
 
-    <TextView
-        android:id="@+id/maincategory_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="Ämter" />
+        <TextView
+            android:id="@+id/maincategory_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/Ämter" />
 
-    <TextView
-        android:id="@+id/subcategory_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="Ämterwegweiser" />
+        <TextView
+            android:id="@+id/subcategory_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/Ämterwegweiser" />
 
     </LinearLayout>
 

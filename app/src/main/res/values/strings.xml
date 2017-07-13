@@ -2,14 +2,21 @@
     <string name="app_name">Willkommen in Herzogenaurach.</string>
     <!-- Category name for phrases [CHAR LIMIT=20] -->
 
-    <string name="category_Rathaus">Rathaus Was erledige ich wo?</string>
+    <string name="category_Rathaus">Rathaus \n Hier kann Mann Büro Sache erledigen</string>
 
     <!-- Category name for the first main category -->
-    <string name="category_Leben">Leben Die Verantwortung für alle Dinge der Abfallentsorgung...</string>
+    <string name="category_Leben">Leben \n Warum würde ich in Herzo leben?</string>
 
     <!-- Category name for the first main category -->
-    <string name="category_Entdecken">Entdecken</string>
+    <string name="category_Entdecken">Entdecken \n Was kann Mann hier zu anschauen?</string>
 
     <!-- Category name for the first main category -->
-    <string name="category_Stadtraum">Stadtraum</string>
+    <string name="category_Stadtraum">Stadtraum \n Herzo als Wirtschaftsstandort</string>
+
+    <string name="Ämter">Allg. Sozialdienst \n Landratsamt Erlangen-Höchstadt \n Amtsblatt
+    \n Amtsblattredaktion, Stadt Herzogenaurach</string>
+
+    <string name="Ämterwegweiser">Was erledige ich wo? Was? \n Wo? \n Abfallgebühren
+    \n Landratsamt Erlangen-Höchstadt \n Abgaben \n Steueramt, Stadt Herzogenaurach"</string>
+
 </resources>
