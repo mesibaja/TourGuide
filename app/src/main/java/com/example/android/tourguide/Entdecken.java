@@ -15,14 +15,8 @@ protected void onCreate(Bundle savedInstanceState) {
 
     // Create a list of Herzo Information
     ArrayList<Herzo> herzoinfo = new ArrayList<Herzo>();
-    herzoinfo.add(new Herzo("Anreise", "Mit dem Auto", R.drawable.entdecken));
-    herzoinfo.add(new Herzo("Feste, Märkte und Messen", "Altstadtfest", R.drawable.entdecken));
-    herzoinfo.add(new Herzo("Kulturveranstaltungen", "Open-Air Kino", R.drawable.entdecken));
-    herzoinfo.add(new Herzo("Sport und Freizeit", "Radfahren", R.drawable.entdecken));
-    herzoinfo.add(new Herzo("Einkaufen", "Outlets", R.drawable.entdecken));
-    herzoinfo.add(new Herzo("Übernachten", "Privat", R.drawable.entdecken));
-    herzoinfo.add(new Herzo("Sehenswürdigkeiten", "Innerer Stadtrundgang", R.drawable.entdecken));
-    herzoinfo.add(new Herzo("Tourist Information", "Souvenirs", R.drawable.entdecken));
+    herzoinfo.add(new Herzo(getString(R.string.Anreise), getString(R.string.MitdemAuto), R.drawable.entdecken));
+    herzoinfo.add(new Herzo(getString(R.string.Feste), getString(R.string.Altstadtfest), R.drawable.entdecken));
 
     // Create a {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The
     // adapter knows how to create list items for each item in the list.

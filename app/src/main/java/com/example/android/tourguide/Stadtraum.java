@@ -15,14 +15,8 @@ public class Stadtraum extends AppCompatActivity {
 
         // Create a list of Herzo Information
         ArrayList<Herzo> herzoinfo = new ArrayList<Herzo>();
-        herzoinfo.add(new Herzo("Wirtschaft", "Konferenz- und Tagungsangebote", R.drawable.stadtraum));
-        herzoinfo.add(new Herzo("Baustellen", "Sanierung \"An der Schütt\"", R.drawable.stadtraum));
-        herzoinfo.add(new Herzo("Stadtverkehr", "Parken", R.drawable.stadtraum));
-        herzoinfo.add(new Herzo("Ortsteile", "Burgstall", R.drawable.stadtraum));
-        herzoinfo.add(new Herzo("Stadtentwicklung & Stadtplanung", "Verkehrsprojekte", R.drawable.stadtraum));
-        herzoinfo.add(new Herzo("Planen & Bauen", "Aktuelle Bauleitplanung", R.drawable.stadtraum));
-        herzoinfo.add(new Herzo("Städtebauförderung", "Fitnessprogamm Innenstadt", R.drawable.stadtraum));
-        herzoinfo.add(new Herzo("Klima & Energie", "European Energy Award®", R.drawable.stadtraum));
+        herzoinfo.add(new Herzo(getString(R.string.Wirtschaft), getString(R.string.Konferenz), R.drawable.stadtraum));
+        herzoinfo.add(new Herzo(getString(R.string.Baustellen), getString(R.string.Anderschütt), R.drawable.stadtraum));
 
         // Create an {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The
         // adapter knows how to create list items for each item in the list.

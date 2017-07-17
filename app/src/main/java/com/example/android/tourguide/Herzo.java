@@ -8,20 +8,21 @@ package com.example.android.tourguide;
 public class Herzo {
 
     /**
+     * Constant value that represents no image was provided for this category
+     */
+    private static final int NO_IMAGE_PROVIDED = -1;
+    /**
      * Main Category
      */
     private String mMainCategory;
-
     /**
      * Sub Category
      */
     private String mSubCategory;
-
-    /** Image resource ID for the category */
+    /**
+     * Image resource ID for the category
+     */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
-
-    /** Constant value that represents no image was provided for this category */
-    private static final int NO_IMAGE_PROVIDED = -1;
 
     /**
      * Create a new Herzo object.
@@ -37,8 +38,8 @@ public class Herzo {
     /**
      * Create a new Herzo object.
      *
-     * @param SubCategory  is the subcategory
-     * @param MainCategory is main category
+     * @param SubCategory     is the subcategory
+     * @param MainCategory    is main category
      * @param ImageResourceId is the drawable resource ID for the image associated with the categories
      */
     public Herzo(String SubCategory, String MainCategory, int ImageResourceId) {
@@ -64,7 +65,7 @@ public class Herzo {
     /**
      * Return the image resource ID of the category.
      */
-    public int getImageResourceId(){
+    public int getImageResourceId() {
         return mImageResourceId;
     }
 

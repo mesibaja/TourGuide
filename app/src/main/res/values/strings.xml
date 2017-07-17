@@ -7,16 +7,60 @@
     <!-- Category name for the first main category -->
     <string name="category_Leben">Leben \n Warum würde ich in Herzo leben?</string>
 
-    <!-- Category name for the first main category -->
+    <!-- Category name for the second main category -->
     <string name="category_Entdecken">Entdecken \n Was kann Mann hier zu anschauen?</string>
 
-    <!-- Category name for the first main category -->
+    <!-- Category name for the third main category -->
     <string name="category_Stadtraum">Stadtraum \n Herzo als Wirtschaftsstandort</string>
 
+    <!-- Subcategory within Rathaus-->
     <string name="Ämter">Allg. Sozialdienst \n Landratsamt Erlangen-Höchstadt \n Amtsblatt
     \n Amtsblattredaktion, Stadt Herzogenaurach</string>
 
+    <!-- Subcategory within Rathaus-->
     <string name="Ämterwegweiser">Was erledige ich wo? Was? \n Wo? \n Abfallgebühren
-    \n Landratsamt Erlangen-Höchstadt \n Abgaben \n Steueramt, Stadt Herzogenaurach"</string>
+    \n Landratsamt Erlangen-Höchstadt \n Abgaben \n Steueramt, Stadt Herzogenaurach</string>
+
+    <!-- Subcategory within Stadtraum-->
+    <string name="Wirtschaft">Wirtschaftsförderung \n Amt für Stadtmarketing und Kultur, Stadt Herzogenaurach</string>
+
+    <!-- Subcategory within Stadtraum-->
+    <string name="Konferenz">Konferenz- und Tagungsangebote</string>
+
+    <!-- Subcategory within Stadtraum-->
+    <string name="Baustellen">Auf dieser Seite finden Sie aktuelle Baustelleninformationen \n für das Stadtgebiet Herzogenaurach und Umkreis. \n Außerdem liefert die Stadt Herzogenaurach hier auch Hintergrundinformationen \n zu Großbaustellen.</string>
+
+    <!-- Subcategory within Stadtraum-->
+    <string name="Anderschütt">Sanierung \"An der Schütt\ Nach einigen Wochen „Winterpause“ werden \n nun ab Montag, 13. Februar 2017, die Arbeiten zur Sanierung \n der Straße An der Schütt fortgeführt."</string>
+
+    <!-- Subcategory within Rathaus-->
+    <string name="Amtsblattredaktion">Das Amtsblatt ist das offizielle, amtliche Mitteilungsorgan \n der Stadt Herzogenaurach und wird jedem Haushalt in der Stadt kostenlos zugestellt. \n Es erscheint jede Woche donnerstags und hat eine Auflagenstärke von 12.500 Stück. \n Redaktionsschluss ist jeweils Montags, 24.00 Uhr. </string>
+
+    <!-- Subcategory within Rathaus-->
+    <string name="Übersicht">Amtliche Bekanntmachungen, Ausschreibungen oder Satzungen gelten den Bürgern \n durch das Amtsblatt als bekannt gemacht. \n Herausgeber ist die Stadt Herzogenaurach, V.i.S.d.P \n Dr. German Hacker, Erster Bürgermeister.</string>
+
+    <!-- Subcategory within Entdecken-->
+    <string name="Anreise">Herzogenaurach ist dank der günstigen Verkehrsanbindung \n an das überregionale Straßennetz, durch die Nähe zu DB-Bahnhöfen \n und zu einem internationalen Flughafen, gut zu erreichen.</string>
+
+    <!-- Subcategory within Entdecken-->
+    <string name="MitdemAuto">Über die Autobahn A3 kommend, liegt Herzogenaurach \n an der Ausfahrt 82 "Frauenaurach/Herzogenaurach". Von dort sind es \n ca. 4,5 km bis zum Zentrum. In der Herzogenauracher Innenstadt \n stehen mehrere Parkplätze sowie ein Parkhaus zur Verfügung.</string>
+
+    <!-- Subcategory within Entdecken-->
+    <string name="Feste">Herzogenaurachs Bürger verstehen es, Feste zu Feiern. \n So treffen sich beispielsweise am Faschingsdienstag verkleidete \n Narren auf dem Marktplatz.</string>
+
+    <!-- Subcategory within Entdecken-->
+    <string name="Altstadtfest">Während des Altstadtfestes sind die Straßen der Innenstadt voll, \n die Sommerkirchweih lockt in das Weihersbachgelände und auch zur \n Martinikirchweih im meist kalten November kommen Alt und Jung, \n Singles und Familien in der Innenstadt zusammen.</string>
+
+    <!-- Subcategory within Leben-->
+    <string name="Abfall">Die Verantwortung für alle Dinge der Abfallentsorgung \n und Müllabfuhr trägt der Landkreis. Ausführliche Informationen \n zu diesem Thema enthält der jährlich erscheinende Abfallkalender, \n den jeder Haushalt zu Jahresbeginn erhält.</string>
+
+    <!-- Subcategory within Leben-->
+    <string name="Hundekot">Hundekot gehört in die Tüte</string>
+
+    <!-- Subcategory within Leben-->
+    <string name="Neubürger">Mit rund 24.000 Einwohnern und 13 Ortsteilen ist Herzogenaurach \n die größte Stadt im Landkreis Erlangen-Höchstadt, \n mitten in der Europäischen Metropolregion Nürnberg</string>
+
+    <!-- Subcategory within Leben-->
+    <string name="Tipps">Mit einer sympathischen Verbindung aus fränkischer Gemütlichkeit, \n Weltoffenheit und Dynamik ist Herzogenaurach aber vor allem eins: \n eine liebens-und lebenswerte fränkische Stadt.</string>
 
 </resources>

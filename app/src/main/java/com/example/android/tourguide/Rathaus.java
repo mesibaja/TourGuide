@@ -7,6 +7,8 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+import static com.example.android.tourguide.R.string.Ämterwegweiser;
+
 public class Rathaus extends AppCompatActivity {
 
     @Override
@@ -16,11 +18,8 @@ public class Rathaus extends AppCompatActivity {
 
         // Create a list of Herzo Information
         ArrayList<Herzo> herzoinfo = new ArrayList<Herzo>();
-        herzoinfo.add(new Herzo("Ämter", "Ämterwegweiser", R.drawable.rathaus));
-        herzoinfo.add(new Herzo("Amtsblattredaktion", "Übersicht", R.drawable.rathaus));
-        herzoinfo.add(new Herzo("Bürgermeister", "Stellvertretende Bürgermeister", R.drawable.rathaus));
-        herzoinfo.add(new Herzo("Stadtgeschichte", "Übersicht", R.drawable.rathaus));
-        herzoinfo.add(new Herzo("Zahlen", "Arbeitslosenstatistik", R.drawable.rathaus));
+        herzoinfo.add(new Herzo(getString(R.string.Ämter),(getString(R.string.Ämterwegweiser)), R.drawable.rathaus));
+        herzoinfo.add(new Herzo(getString(R.string.Amtsblattredaktion), getString(R.string.Übersicht), R.drawable.rathaus));
 
         // Create an {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The
         // adapter knows how to create list items for each item in the list.

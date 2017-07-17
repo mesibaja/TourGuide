@@ -25,13 +25,13 @@
             android:id="@+id/maincategory_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="@string/Ämter" />
+            android:text="@string/Ämter" />
 
         <TextView
             android:id="@+id/subcategory_text_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:text="@string/Ämterwegweiser" />
+            android:text="@string/Ämterwegweiser" />
 
     </LinearLayout>
 
