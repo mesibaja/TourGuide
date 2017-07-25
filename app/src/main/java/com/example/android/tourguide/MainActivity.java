@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link NumbersActivity}
-                Intent rathausIntent = new Intent(MainActivity.this, Rathaus.class);
+                Intent rathausIntent = new Intent(MainActivity.this, RathausActivity.class);
 
                 // Start the new activity
                 startActivity(rathausIntent);
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link Leben}
-                Intent lebenIntent = new Intent(MainActivity.this, Leben.class);
+                Intent lebenIntent = new Intent(MainActivity.this, LebenActivity.class);
 
                 // Start the new activity
                 startActivity(lebenIntent);
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link Entdecken}
-                Intent entdeckenIntent = new Intent(MainActivity.this, Entdecken.class);
+                Intent entdeckenIntent = new Intent(MainActivity.this, EntdeckenActivity.class);
 
                 // Start the new activity
                 startActivity(entdeckenIntent);
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Create a new intent to open the {@link Stadtraum}
-                Intent stadtraumIntent = new Intent(MainActivity.this, Stadtraum.class);
+                Intent stadtraumIntent = new Intent(MainActivity.this, StadtraumActivity.class);
 
                 // Start the new activity
                 startActivity(stadtraumIntent);

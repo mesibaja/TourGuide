@@ -27,17 +27,6 @@ public class Herzo {
     /**
      * Create a new Herzo object.
      *
-     * @param SubCategory  is the subcategory
-     * @param MainCategory is main category
-     */
-    public Herzo(String SubCategory, String MainCategory) {
-        mSubCategory = SubCategory;
-        mMainCategory = MainCategory;
-    }
-
-    /**
-     * Create a new Herzo object.
-     *
      * @param SubCategory     is the subcategory
      * @param MainCategory    is main category
      * @param ImageResourceId is the drawable resource ID for the image associated with the categories
@@ -67,12 +56,5 @@ public class Herzo {
      */
     public int getImageResourceId() {
         return mImageResourceId;
-    }
-
-    /**
-     * Returns whether or not there is an image for this category.
-     */
-    public boolean hasImage() {
-        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 }

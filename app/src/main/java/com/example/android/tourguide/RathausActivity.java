@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 import static com.example.android.tourguide.R.string.Ämterwegweiser;
 
-public class Rathaus extends AppCompatActivity {
+public class RathausActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class Rathaus extends AppCompatActivity {
 
         // Create a list of Herzo Information
         ArrayList<Herzo> herzoinfo = new ArrayList<Herzo>();
-        herzoinfo.add(new Herzo(getString(R.string.Ämter),(getString(R.string.Ämterwegweiser)), R.drawable.rathaus));
+        herzoinfo.add(new Herzo(getString(R.string.Ämter), (getString(R.string.Ämterwegweiser)), R.drawable.rathaus));
         herzoinfo.add(new Herzo(getString(R.string.Amtsblattredaktion), getString(R.string.Übersicht), R.drawable.rathaus));
 
         // Create an {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The

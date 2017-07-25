@@ -1,12 +1,12 @@
 package com.example.android.tourguide;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class Leben extends AppCompatActivity {
+public class EntdeckenActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,10 +15,10 @@ public class Leben extends AppCompatActivity {
 
         // Create a list of Herzo Information
         ArrayList<Herzo> herzoinfo = new ArrayList<Herzo>();
-        herzoinfo.add(new Herzo(getString(R.string.Abfall), getString(R.string.Hundekot), R.drawable.leben));
-        herzoinfo.add(new Herzo(getString(R.string.Neubürger), getString(R.string.Tipps), R.drawable.leben));
+        herzoinfo.add(new Herzo(getString(R.string.Anreise), getString(R.string.MitdemAuto), R.drawable.entdecken));
+        herzoinfo.add(new Herzo(getString(R.string.Feste), getString(R.string.Altstadtfest), R.drawable.entdecken));
 
-        // Create an {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The
+        // Create a {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The
         // adapter knows how to create list items for each item in the list.
         HerzoAdapter adapter = new HerzoAdapter(this, herzoinfo);
 

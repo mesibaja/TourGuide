@@ -17,16 +17,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Rathaus"
+            android:name=".RathausActivity"
             android:label="@string/category_Rathaus" />
         <activity
-            android:name=".Leben"
+            android:name=".LebenActivity"
             android:label="@string/category_Leben" />
         <activity
-            android:name=".Entdecken"
+            android:name=".EntdeckenActivity"
             android:label="@string/category_Entdecken" />
         <activity
-            android:name=".Stadtraum"
+            android:name=".StadtraumActivity"
             android:label="@string/category_Stadtraum" />
     </application>
 

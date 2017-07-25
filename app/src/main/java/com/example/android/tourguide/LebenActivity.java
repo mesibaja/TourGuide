@@ -6,7 +6,7 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
-public class Stadtraum extends AppCompatActivity {
+public class LebenActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,8 +15,8 @@ public class Stadtraum extends AppCompatActivity {
 
         // Create a list of Herzo Information
         ArrayList<Herzo> herzoinfo = new ArrayList<Herzo>();
-        herzoinfo.add(new Herzo(getString(R.string.Wirtschaft), getString(R.string.Konferenz), R.drawable.stadtraum));
-        herzoinfo.add(new Herzo(getString(R.string.Baustellen), getString(R.string.Anderschütt), R.drawable.stadtraum));
+        herzoinfo.add(new Herzo(getString(R.string.Abfall), getString(R.string.Hundekot), R.drawable.leben));
+        herzoinfo.add(new Herzo(getString(R.string.Neubürger), getString(R.string.Tipps), R.drawable.leben));
 
         // Create an {@link HerzoAdapter}, whose data source is a list of {@link Herzo}. The
         // adapter knows how to create list items for each item in the list.
